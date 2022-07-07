@@ -2,7 +2,7 @@
   "name": "babylonjs-npm-template",
   "description": "",
   "scripts": {
-    "start": "export NODE_OPTIONS=--openssl-legacy-provider && npx webpack serve",
+    "start": "npx webpack serve",
     "build": "webpack --mode production "
   },
   "devDependencies": {
